@@ -1,5 +1,5 @@
 from django.contrib import admin
-from api.models import Recipe
+from api.models import Recipe, RecipeImage
 
-# Register your models here.
 admin.site.register(Recipe)
+admin.site.register(RecipeImage)
