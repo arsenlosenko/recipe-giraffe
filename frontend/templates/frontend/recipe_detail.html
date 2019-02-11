@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div>
+        <h3>{{ object.title }}</h3>
+        <span>Posted by {{ object.user }}</span>
+        <p>{{ object.description }}</p>
+    </div>
+{% endblock %}
