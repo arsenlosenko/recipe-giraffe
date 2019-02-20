@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'frontend',
 
     'rest_framework',
+    'crispy_forms',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -143,3 +144,6 @@ MEDIA_URL = '/uploaded/'
 MEDIA_ROOT = os.path.join(BASE_DIR, '../media_root')
 
 LOGIN_REDIRECT_URL = "frontend:list-recipes"
+LOGIN_URL = "frontend:login"
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
